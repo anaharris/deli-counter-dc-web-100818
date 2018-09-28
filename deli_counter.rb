@@ -7,6 +7,7 @@ def line(katz_deli)
   else 
     katz_deli.each do |i|
     customers << "#{x}. #{i} "
+    x+=1
     end
   end
   return "The line is currently: #{customers}"
