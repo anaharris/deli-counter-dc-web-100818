@@ -23,5 +23,5 @@ def now_serving(katz_deli)
   customer = katz_deli.first 
   katz_deli.shift
   if katz_deli.size > 1 
-    puts "Currently se"
+    puts "Currently serving"
 end
