@@ -16,4 +16,5 @@ def take_a_number (katz_deli, name)
   num_in_line = katz_deli.size + 1 
   message = "Welcome, #{name}. You are number #{num_in_line} in line."
   katz_deli.push(name)
+  return message
 end
