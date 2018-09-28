@@ -9,6 +9,6 @@ def line (katz_deli)
     x+= 1
     end
   end
-  puts "The line is currently: #{customers.join}"
+  puts "The line is currently:#{customers.join}"
 end
 
