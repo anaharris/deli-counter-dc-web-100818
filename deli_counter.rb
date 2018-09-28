@@ -24,4 +24,6 @@ def now_serving(katz_deli)
   katz_deli.shift
   if katz_deli.size > 1 
     puts "Currently serving #{customer}."
+  else
+    puts ""
 end
