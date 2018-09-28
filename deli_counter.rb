@@ -21,6 +21,6 @@ end
 
 def now_serving(katz_deli)
   customer = katz_deli.first 
-  
+  katz_deli.shift
   
 end
