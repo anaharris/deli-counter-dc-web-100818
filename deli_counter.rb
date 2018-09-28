@@ -8,7 +8,7 @@ def line (katz_deli)
     customers << " #{x}. #{i}"
     x+= 1
     end
+    puts "The line is currently:#{customers.join}"
   end
-  puts "The line is currently:#{customers.join}"
 end
 
