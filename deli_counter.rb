@@ -5,7 +5,7 @@ def line (katz_deli)
     puts "The line is currently empty."
   else 
     katz_deli.each do |i|
-    customers << "#{x}. #{i} "
+    customers << " #{x}. #{i}"
     x+= 1
     end
   end
