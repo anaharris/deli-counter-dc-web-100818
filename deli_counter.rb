@@ -10,6 +10,6 @@ def line(katz_deli)
     x+= 1
     end
   end
-  return customers
+  return "The line is currently: #{}"
 end
 
