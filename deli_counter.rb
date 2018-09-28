@@ -1,4 +1,4 @@
-def line(katz_deli)
+def line (katz_deli)
   num = katz_deli.size
   customers = []
   x = 1
